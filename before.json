@@ -1,0 +1,719 @@
+{
+  "commit": "12a397217f95f62b706dd1be86b7b0f50cf24d1d",
+  "transform_sha256": "1c42cfcbf6750df31b64ffbd615a358d496ff5dbe8af929972e4c533a76b0a3d",
+  "input_kind": "synthetic arrays; all outputs measured by calling the transforms",
+  "records": [
+    {
+      "operation": "resize",
+      "container": "list",
+      "field": "data",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            5.0,
+            7.0
+          ],
+          [
+            13.0,
+            15.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "matches_expected": false
+    },
+    {
+      "operation": "resize",
+      "container": "list",
+      "field": "seg",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "matches_expected": false
+    },
+    {
+      "operation": "resize",
+      "container": "tuple",
+      "field": "data",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            5.0,
+            7.0
+          ],
+          [
+            13.0,
+            15.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "matches_expected": false
+    },
+    {
+      "operation": "resize",
+      "container": "tuple",
+      "field": "seg",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "matches_expected": false
+    },
+    {
+      "operation": "zoom",
+      "container": "list",
+      "field": "data",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            5.0,
+            7.0
+          ],
+          [
+            13.0,
+            15.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "matches_expected": false
+    },
+    {
+      "operation": "zoom",
+      "container": "list",
+      "field": "seg",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "matches_expected": false
+    },
+    {
+      "operation": "zoom",
+      "container": "tuple",
+      "field": "data",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            5.0,
+            7.0
+          ],
+          [
+            13.0,
+            15.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0.0,
+            1.0,
+            2.0,
+            3.0
+          ],
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ],
+          [
+            8.0,
+            9.0,
+            10.0,
+            11.0
+          ],
+          [
+            12.0,
+            13.0,
+            14.0,
+            15.0
+          ]
+        ]
+      ],
+      "matches_expected": false
+    },
+    {
+      "operation": "zoom",
+      "container": "tuple",
+      "field": "seg",
+      "input_shape": [
+        1,
+        4,
+        4
+      ],
+      "expected_shape": [
+        1,
+        2,
+        2
+      ],
+      "actual_shape": [
+        1,
+        4,
+        4
+      ],
+      "input_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "expected_values": [
+        [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ]
+      ],
+      "actual_values": [
+        [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "matches_expected": false
+    }
+  ]
+}
